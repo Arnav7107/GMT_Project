@@ -1,0 +1,56 @@
+.smallsidebar {
+    height: 90vh;
+    width: 200px;
+    transition: 0.5 ease;
+    cursor: pointer;
+    background-color: #6C63FF;
+    color: white;
+    
+    /* sidebar above the content */
+    position: relative;
+    /* z-index: 1; */
+}
+
+.bigsidebar {
+    width: 200px;
+    height: 90vh;
+    transition: 0.5 ease;
+    background-color: #b83a3a;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-items {
+    color: white;
+    text-decoration: none;
+}
+
+.active-menu {
+    color: black;
+}
+
+.active-menu svg {
+    color: black;
+}
+
+.bigsidebar .menu-items {
+    margin-bottom: 20px;
+}
+
+.content{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.layout{
+    display: flex;
+}
+
+.body{
+    display: flex;
+    height: 100vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+}
