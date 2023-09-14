@@ -22,6 +22,8 @@ To see AppointEase in action, you can run the localhost:3000 and log in using th
    Email - test@gmail.com
    Password - test123
 
+Due to an error during the database deployment process, there is a possibility that the provided email and password may not function as expected. In such cases, I have temporarily disabled the protected routing feature. As a result, you can access the project's dashboard without the need to log in by simply visiting the following URL: http://localhost:3000/dashboard. It's essential to understand that I took this step solely to ensure the evaluation of my project due to the database deployment issue. Thank you for your understanding.
+
 Once Logged In click on the Appointment tab in the sidebar to book Appointments.
 Once the date and time are selected Click on the Book Appointment Button and an Appointent will be booked along with which an Email will be sent to the registered user.
 
